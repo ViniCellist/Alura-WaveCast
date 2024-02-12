@@ -1,0 +1,78 @@
+@media only screen and (max-width: 1023px) {
+    .menu-side,
+    .rodape,
+    .header__buttom,
+    .section-horizontal .card__subtitle,
+    .section-horizontal .card__buttom,
+    .section-horizontal .card__player,
+    .section-vertical .section__link {
+        display: none;
+    }
+
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .navbar {
+        display: block;
+    }   
+
+    .section-horizontal .card__image {
+        height: 4.58rem;
+    }
+ 
+    .section-horizontal .card__title {
+        font: 700 14px/20px Open Sans, sans-serif;
+    }
+
+    .section-vertical .card {
+        background-color: transparent;
+        padding: 0;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+
+    .container {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+
+    .header .header__logo,
+    .header__buttom__next {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .section-horizontal .card__image {
+        height: 73px;
+    }
+
+    .section-horizontal .card__title {
+        font: 700 16px/22px 'Open Sans', sans-serif;
+    }
+
+    .section-horizontal .card__subtitle {
+        font: 400 14px/19px 'Open Sans', sans-serif;
+        width: 100%;
+    }
+
+    .section-vertical .card {
+        padding: 1.25rem;
+    }
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .navbar,
+    .header__logo {
+        display: none;
+    }
+
+}
