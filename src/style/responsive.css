@@ -45,6 +45,10 @@
         display: none;
     }
 
+    .menu-side {
+        width: 13rem;
+    }
+
     .navbar {
         display: none;
     }
@@ -73,6 +77,10 @@
     .navbar,
     .header__logo {
         display: none;
+    }
+
+    .menu-side {
+        width: 14.25rem;
     }
 
 }
