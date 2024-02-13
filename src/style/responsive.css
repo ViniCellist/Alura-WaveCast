@@ -18,6 +18,9 @@
         display: block;
     }   
 
+    .header {
+        justify-self: center;
+    }
     .section-horizontal .card__image {
         height: 4.58rem;
     }
