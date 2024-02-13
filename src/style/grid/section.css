@@ -1,0 +1,9 @@
+.section {
+    display: grid;
+    align-items: end;
+    row-gap: 2rem;
+}
+
+.section-horizontal, .section-vertical {
+    grid-template-rows: 4.375rem auto;
+}
