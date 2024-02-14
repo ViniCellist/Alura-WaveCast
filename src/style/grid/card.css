@@ -1,0 +1,22 @@
+.section-horizontal .card {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 3rem 0.9rem;
+    column-gap: 1.25rem;
+}
+
+.section-horizontal .card__image {
+    grid-area: 1 / 1 / 4 / 2;
+}
+
+.section-horizontal .card__buttom {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.section-horizontal .card__title {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.section-horizontal .card__player {
+    grid-area: 3 / 2 / 4 / 3;
+}
