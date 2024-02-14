@@ -21,12 +21,17 @@
     .header {
         justify-self: center;
     }
+
+    .section-horizontal .card {
+        column-gap: 0.5rem;
+    }
     .section-horizontal .card__image {
         height: 4.58rem;
     }
  
     .section-horizontal .card__title {
         font: 700 14px/20px Open Sans, sans-serif;
+        align-self: center;
     }
 
     .section-vertical .card {
