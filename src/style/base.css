@@ -103,7 +103,7 @@ main {
 
 .card { 
     background: var(--cinza);
-    border-radius: .5rem;
+    border-radius: 0.5rem;
 }
 
 .card__title {
