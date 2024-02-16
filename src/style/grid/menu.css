@@ -7,3 +7,8 @@
 .menu-side__logo {
     justify-self: center;
 }
+
+.menu-side__link button {
+    display: flex;
+    align-items: center;
+}
